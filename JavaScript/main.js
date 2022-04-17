@@ -1,2 +1,3 @@
-num = 3;
-console.log(num);
+
+let sum = 0.1 + 0.2;
+console.log(sum);
