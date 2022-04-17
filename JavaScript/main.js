@@ -1,1 +1,2 @@
-console.log("Hello, Wolrd Out!");
+num = 3;
+console.log(num);
