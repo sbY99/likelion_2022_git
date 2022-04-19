@@ -108,3 +108,12 @@ section{
 .title-box{
     text-align: right;
 }
+
+.sns-img{
+    width: 12px;
+    height: 12px;   
+}
+
+.sns-wrap{
+    text-align: right;
+}
