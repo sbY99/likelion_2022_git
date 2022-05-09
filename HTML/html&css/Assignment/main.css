@@ -54,6 +54,7 @@ footer{
     margin-right: auto;
 
     box-shadow: 0 1px 20px 0 rgba(0,0,0,0.1);
+    display :none;
 }
 
 section{
@@ -111,4 +112,24 @@ section{
     width: 20px;
     height: 20px;
     float: left;
+}
+
+#profile{
+    display: none;
+}
+
+#education{
+    display: none;
+}
+
+#work{
+    display: none;
+}
+
+#act{
+    display: none;
+}
+
+#ref{
+    display: none;
 }
