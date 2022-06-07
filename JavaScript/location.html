@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <p>클릭한 곳의 좌표</p>
+    <p class="msg">Where?</p>
+    <script>
+        const msg = document.querySelector('.msg');
+        function showWhere(e){
+            msg.innerHTML = `my location is ${e.clientX}, ${e.clientY}`
+        }
+        document.onclick = showWhere;
+    </script>
+</body>
+</html>
