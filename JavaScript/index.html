@@ -1,39 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href ='main.css'>
-    <title>Document</title>
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-    crossorigin="anonymous">
-    </script>
+ <meta charset="UTF-8">
+ <title>Document</title>
+ <link rel="stylesheet" href="./main.css">
+ <script>
+ </script>
 </head>
 <body>
-    
-    <div class="alert-box" id = 'alert'>
-        <p id = 'title'>Alert Box</p>
-        <button id = "close"> X </button>
-    </div>
-    
+    <ul id = 'animals'>
+        <li class="animal">lion</li>
+        <li class="animal">tiger</li>
+        <li class="animal">bear</li>
+    </ul>
+    <div class = 'box'></div>
+    <script src = './main.js'></script>
 
-    <button onclick="alert('ID를 입력하시오')">Button1</button>
-    <button onclick="alert('PW를 입력하시오')">Button2</button>
-
-    <script>
-
-        function alert(input){
-            document.getElementById('alert').innerHTML = input;
-            $('#alert').html('jquery');
-            document.getElementById('alert').style.display = 'block';
-        }
-
-        document.getElementById('close').addEventListener('click',function(){
-            document.getElementById('alert').style.display = 'none'
-        })
-
-    </script>
-    
 </body>
 </html>
