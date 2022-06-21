@@ -1,0 +1,25 @@
+{
+  "folders": [
+	{
+		"path": "../../../../Desktop/개인폴더/GitHub/likelion_2022_git/JavaScript/Client App"
+	},
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../1. main페이지 최종코드"
+	},
+	{
+		"path": "../../2. QnA페이지 최종코드"
+	},
+	{
+		"path": "../../3. result페이지 최종코드"
+	},
+	{
+		"path": "../../4. 최종코드"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "0. Start"
+  }
+}
