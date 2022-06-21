@@ -1,6 +1,6 @@
-const APIKEY = '2eb63df7158d6d4f087798e55e1b7c26';
+
 const IMAGE_URL = 'https://image.tmdb.org/t/p/w500';
-// const APIKEY = '#############################';
+const APIKEY = '#############################';
 
 const now_playingURL = "https://api.themoviedb.org/3/movie/now_playing?api_key="+APIKEY +"&language=en-US&page=1";
 const now_playing = document.getElementById('now-playing');
